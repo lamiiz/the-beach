@@ -1,0 +1,22 @@
+#image1{
+    height: 250px;
+    width: 200px;
+    margin: 50px;
+    border-radius: 15px;
+    outline: 3px solid rgb(240, 234, 234);
+    outline-offset: -12px;
+    box-shadow: 5px 5px 20px rgb(36, 33, 33);
+    inset: 0;
+    transition: transform .75s;
+}
+#image1:hover{
+    transform: scale(1.15);
+}
+#headline1{
+    color: rgb(254, 254, 254);
+    font-size: 30px;
+    position: absolute;
+    top: 220px;
+    left: 98px;
+    text-shadow: 0px 8px 3px rgb(0, 0, 0)  ;
+}
